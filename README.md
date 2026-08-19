@@ -1,16 +1,162 @@
-# React + Vite
+# 🛒 E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, and user-friendly **E-Commerce Website** built with **React.js** and **Tailwind CSS**. The application provides a smooth shopping experience with product browsing, product details, cart management, and seamless navigation.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🏠 Modern and responsive homepage
+* 🛍️ Product listing and product details
+* 🔍 Product search functionality
+* 🛒 Add and remove products from cart
+* ➕ Increase and decrease product quantity
+* 💰 Dynamic cart total calculation
+* 📱 Fully responsive design
+* 🧭 Client-side routing with React Router DOM
+* 🎨 Modern UI built with Tailwind CSS
+* ⚡ Fast and smooth user experience
+* 🧩 Reusable React components
+* 📦 Clean and organized project structure
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology            | Purpose                       |
+| --------------------- | ----------------------------- |
+| **React.js**          | Building the user interface   |
+| **Tailwind CSS**      | Styling and responsive design |
+| **React Router DOM**  | Client-side routing           |
+| **JavaScript (ES6+)** | Application logic             |
+| **HTML5**             | Page structure                |
+| **Vite**              | Development and build tool    |
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+e-commerce/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-ecommerce-project.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd your-ecommerce-project
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local development URL displayed in your terminal.
+
+## 📸 Screenshots
+
+Add your project screenshots here:
+
+```text
+screenshots/
+├── home.png
+├── products.png
+├── product-details.png
+├── cart.png
+└── checkout.png
+```
+
+Example:
+
+```md
+![Home Page](screenshots/home.png)
+```
+
+## 🧭 Main Routes
+
+| Route          | Description     |
+| -------------- | --------------- |
+| `/`            | Home page       |
+| `/products`    | Product listing |
+| `/product/:id` | Product details |
+| `/cart`        | Shopping cart   |
+
+## 🔮 Future Improvements
+
+* [ ] User authentication
+* [ ] Wishlist functionality
+* [ ] Product reviews and ratings
+* [ ] Advanced product filtering
+* [ ] Online payment integration
+* [ ] Order tracking
+* [ ] Admin dashboard
+* [ ] Dark mode
+* [ ] Backend and database integration
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated.
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature/your-feature
+```
+
+3. Make your changes
+4. Commit your changes
+
+```bash
+git commit -m "Add your feature"
+```
+
+5. Push your branch
+
+```bash
+git push origin feature/your-feature
+```
+
+6. Open a Pull Request
+
+## 📄 License
+
+This project is created for educational and development purposes.
+
+## 👨‍💻 Author
+
+**Rishabh Prajapati**
+
+* GitHub: `https://github.com/RISHABH125523`
+
+---
+
+⭐ **If you found this project useful, consider giving it a star!**
